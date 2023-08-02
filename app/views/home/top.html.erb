@@ -1,0 +1,10 @@
+<h1>Home#top</h1>
+<p>Find me in app/views/home/top.html.erb</p>
+<% @posts.each do |title, id| %>
+  <h3><%= title %></h3>
+  <%= id['name'] %>
+  <%= id['content'] %>
+<% end %>
+
+<p>
+
